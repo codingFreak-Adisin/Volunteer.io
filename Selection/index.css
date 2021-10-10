@@ -1,0 +1,123 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  background: #4b4b4b;
+  background: linear-gradient(34deg, #4b4b4b 0%, #185177 100%);
+}
+
+.Container {
+  margin-top: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+}
+
+.Container .leftSide {
+  border-radius: 7px 0 0 7px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+          box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  padding: 5%;
+  text-align: center;
+  margin-right: 0;
+  background-color: white;
+}
+
+.Container .leftSide p {
+  color: #696767;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: center;
+  max-width: 30ch;
+}
+
+.Container .leftSide svg {
+  margin-bottom: 5%;
+  width: 5.5rem;
+  height: 5.5rem;
+  display: block;
+  border-radius: 100%;
+  padding: 5%;
+  -webkit-transition: all ease-in-out 200ms;
+  transition: all ease-in-out 200ms;
+}
+
+.Container .leftSide svg:hover {
+  background-color: #2696E9;
+}
+
+.Container .leftSide a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+  border-radius: 7px;
+  display: block;
+  margin-top: 8%;
+  padding: 3% 5%;
+  background-color: #2696E9;
+  -webkit-transition: all ease-in-out 200ms;
+  transition: all ease-in-out 200ms;
+}
+
+.Container .leftSide a:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.Container .rightSide {
+  border-radius: 0 7px 7px 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+          box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  padding: 5%;
+  text-align: center;
+  margin-left: 0;
+  background-color: #2696E9;
+}
+
+.Container .rightSide p {
+  color: #2c2c2c;
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 30ch;
+  text-align: center;
+}
+
+.Container .rightSide svg {
+  margin-bottom: 5%;
+  width: 5.5rem;
+  height: 5.5rem;
+  display: block;
+  padding: 5%;
+  border-radius: 100%;
+  -webkit-transition: all ease-in-out 200ms;
+  transition: all ease-in-out 200ms;
+}
+
+.Container .rightSide svg:hover {
+  background-color: white;
+}
+
+.Container .rightSide a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #2696E9;
+  border-radius: 7px;
+  display: block;
+  margin-top: 8%;
+  padding: 3% 5%;
+  background-color: white;
+  -webkit-transition: all ease-in-out 200ms;
+  transition: all ease-in-out 200ms;
+}
+
+.Container .rightSide a:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*# sourceMappingURL=index.css.map */
