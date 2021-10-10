@@ -1,0 +1,241 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  height: 100%;
+  background: #4b4b4b;
+  background: linear-gradient(34deg, #4b4b4b 0%, #185177 100%);
+}
+
+.background {
+  width: 100%;
+  background-color: white;
+}
+
+nav h1 {
+  margin-left: 10%;
+}
+
+nav {
+  padding: .5% 0;
+  background-color: white;
+  width: 80%;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  -webkit-transition: all ease-in-out 150ms;
+  transition: all ease-in-out 150ms;
+}
+
+nav a:hover {
+  color: #2696E9;
+}
+
+nav li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.secondNav {
+  display: none;
+}
+
+.secondNav ul {
+  width: 100%;
+  vertical-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.secondNav h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.secondNav svg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 3rem;
+  height: 3rem;
+}
+
+.header {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.header h1 {
+  color: white;
+}
+
+.Card {
+  margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Card .leftSide {
+  border-radius: 7px 0 0 7px;
+  text-align: center;
+  background-color: #2696E9;
+  margin-left: auto;
+  margin-right: 0;
+  padding: 4rem 2rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.Card .leftSide h1 {
+  margin-bottom: 10%;
+  color: white;
+}
+
+.Card .leftSide p {
+  color: white;
+  margin-bottom: 15%;
+}
+
+.Card .leftSide button {
+  white-space: nowrap;
+  background-color: transparent;
+  /* background: #fff; */
+  border: 2px solid white;
+  padding: 6% 20%;
+  /* color: #1680AC; */
+  color: white;
+  font-size: 1.1em;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 20rem;
+  -webkit-transition: all ease-in-out 350ms;
+  transition: all ease-in-out 350ms;
+}
+
+.Card .leftSide button:hover {
+  background-color: white;
+  color: #2696E9;
+}
+
+.Card .rightSide {
+  border-radius: 0 7px 7px 0;
+  text-align: center;
+  margin: 0;
+  padding: 2rem;
+  margin-left: 0;
+  margin-right: auto;
+  background-color: white;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.Card .rightSide h1 {
+  color: #2696E9;
+  margin-bottom: 10%;
+}
+
+.Card .rightSide a {
+  color: black;
+}
+
+.Card .rightSide .SignIn {
+  text-align: center;
+}
+
+.Card .rightSide .SignIn img {
+  width: 2rem;
+  height: 2rem;
+  padding: 1%;
+  margin-right: 3%;
+  border-radius: 100%;
+  -webkit-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+          box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  -webkit-transition: all ease-in-out 200ms;
+  transition: all ease-in-out 200ms;
+  margin-bottom: 10%;
+}
+
+.Card .rightSide .SignIn img:hover {
+  background-color: #2696E9;
+}
+
+.Card .rightSide p {
+  font-size: .8em;
+  margin-bottom: 3%;
+}
+
+.Card .rightSide .Name, .Card .rightSide .Email, .Card .rightSide .Password {
+  background-color: lightgrey;
+  margin-bottom: 3%;
+  padding: 3% 3%;
+  border-radius: 7px;
+}
+
+.Card .rightSide input {
+  padding-left: 1%;
+  background-color: lightgrey;
+  border: 0;
+}
+
+.Card .rightSide svg {
+  margin-bottom: -3px;
+}
+
+.Card button {
+  margin-top: 3%;
+  white-space: nowrap;
+  background-color: transparent;
+  /* background: #fff; */
+  border: 2px solid #2696E9;
+  padding: 4% 12%;
+  /* color: #1680AC; */
+  color: #2696E9;
+  font-size: 1.1em;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 20rem;
+  -webkit-transition: all ease-in-out 350ms;
+  transition: all ease-in-out 350ms;
+}
+
+.Card button:hover {
+  background-color: #2696E9;
+  color: white;
+}
+
+@media (max-width: 970px) {
+  .Sign-inButton {
+    display: none;
+  }
+  Nav {
+    display: none;
+  }
+  .secondNav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

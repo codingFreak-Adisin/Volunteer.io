@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.kindpng.com/picc/m/703-7034195_rocket-rocket-ship-emoji-hd-png-download.png"/>
     <title>Document</title>
 </head>
 <body>
+    <div class="background">
     <nav>
         <ul>
             <h1>Volunteer.io</h1>
@@ -25,27 +29,45 @@
             <h1>Volunteer.io</h1>
         </ul>
     </div>
-    <div class="Container">
-        <h1>Volunteer.io</h1>
-        <h2>Sign-up</h2>
-        <div class="sign-up">
-            <div class="fullname">
-                <label for="fullname">Enter Full Name</label>
-                <input id="fullname"type="text">
-            </div>
-            <div class="email">
-                <label for="email">Enter Email</label>
-                <input id="email"type="email">  
-            </div>
-            <div class="password">
-                <label for="password">Enter Full Name</label>
-                <input id="password"type="password">  
-            </div>
-            <div class="birthdate">
-                <label for="birthdate">Enter Full Name</label>
-                <input id="birthdate"type="date">  
-            </div>
-        </div>
+</div>
+<div class="header">
+    <h1>Volunteer.io Create An Account</h1>
+</div>
+<div class="Card">
+    <div class="leftSide">
+        <h1 id="Greeting">Welcome Back</h1>
+        <p id="leftText">To Sign in click the button Below!</p>
+        <button id="ChangeScreen">Sign in</button>
     </div>
+    <div class="rightSide">
+        <h1 id="TextChange">Create Account</h1>
+        <div class="SignIn">
+            <a href=""><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/06-facebook-512.png" alt=""></a>
+            <a href=""><img src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-google-icon-download-icons-18.png" alt=""></a>
+            <a href=""><img src="https://www.freeiconspng.com/uploads/discord-black-icon-1.png" alt=""></a>
+        </div>
+        <p>or you can also use your email address</p>
+        <div id="Name"class="Name">
+            <svg xmlns="http://www.w3.org/2000/svg"  height="16"width="16"fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+              </svg>
+            <input type="text" placeholder="Name" required>
+        </div>
+        <div class="Email">
+            <svg xmlns="http://www.w3.org/2000/svg"  height="16"width="16"fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+              </svg>
+            <input type="email" placeholder="Email" required>
+        </div>
+        <div class="Password">
+            <svg xmlns="http://www.w3.org/2000/svg"  height="16"width="16"fill="currentColor" class="bi bi-lock" viewBox="0 0 16 16">
+                <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zM5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/>
+              </svg>
+            <input type="password" placeholder="Password" required>
+        </div>
+        <button id="RightBtn" onclick="location.href=''">Sign up</button>
+    </div>
+</div>
 </body>
 </html>
+<script src="Sign-in.js"></script>
