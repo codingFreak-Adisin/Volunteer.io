@@ -203,7 +203,7 @@ nav ul {
   margin-bottom: -3px;
 }
 
-.Card button {
+.Card a{
   margin-top: 3%;
   white-space: nowrap;
   background-color: transparent;
@@ -220,7 +220,7 @@ nav ul {
   transition: all ease-in-out 350ms;
 }
 
-.Card button:hover {
+.Card a:hover {
   background-color: #2696E9;
   color: white;
 }
