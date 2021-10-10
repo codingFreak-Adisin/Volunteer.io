@@ -65,11 +65,6 @@ html {
   transition: all ease-in-out 200ms;
 }
 
-.Container .leftSide a:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
 .Container .rightSide {
   border-radius: 0 7px 7px 0;
   -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -116,8 +111,13 @@ html {
   transition: all ease-in-out 200ms;
 }
 
-.Container .rightSide a:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+@media (max-width: 970px) {
+  .Container {
+    width: 100%;
+  }
+  a:hover {
+    -webkit-transform: none;
+            transform: none;
+  }
 }
 /*# sourceMappingURL=index.css.map */
