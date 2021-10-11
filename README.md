@@ -21,7 +21,7 @@ Images -:
 ![image](https://user-images.githubusercontent.com/70958307/136747912-8dfc3066-83e9-4b7b-9da3-1e1ac79c8d3b.png)
 
 
-This project is made to be submitted to MakeUC 2021
+This project is made to be submitted to MakeUC 2021 Hackathon
 
 Made by -:
 1) Brilynd Madeya
