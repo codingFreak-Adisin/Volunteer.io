@@ -6,8 +6,6 @@ Through technology it seems every aspect of our lives has been made easier excep
 
 Images -:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/g5h4kulT0rw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ![image](https://user-images.githubusercontent.com/70958307/136747620-d4e7b1ae-724b-4d02-b38e-1defb88825b5.png)
 
 ![image](https://user-images.githubusercontent.com/70958307/136747645-95ea1f3e-b5a9-45bc-82d6-cb7e94a758ef.png)
